@@ -4,9 +4,12 @@ require('colors');
 //referencia el modulo math a traves de la constante math
 const math = require('./modules/math.js');
 
+//Limpia consola
 console.clear();
+//muestra en consola las funciones math
 console.log(math);
 
+//Muestra la interfaz hecha y el resultado de las operaciones
 const main = async() => {
     console.log('***************************************'.yellow);
     console.log('****'.yellow,'FUNCIONES MATEMATICAS'.bgGreen,
